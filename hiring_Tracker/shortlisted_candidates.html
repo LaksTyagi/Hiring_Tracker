@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shortlisted Candidates</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        .candidate {
+            margin-bottom: 20px;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        button {
+            padding: 10px 20px;
+            margin-right: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .select-btn {
+            background-color: #4CAF50;
+            color: white;
+        }
+        .reject-btn {
+            background-color: #f44336;
+            color: white;
+        }
+        button:hover {
+            opacity: 0.9;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Shortlisted Candidates</h2>
+
+    <div class="candidate">
+        <h3>Candidate Name: John Doe</h3>
+        <p>Job Role: Engineer</p>
+        <p>Expected CTC: 10 Lakhs per Annum</p>
+        <p>Rating: 4/5</p>
+        
+        <button class="select-btn" onclick="location.href='selected_candidate.html'">Select</button>
+        <button class="reject-btn" onclick="location.href='rejected_candidate.html'">Reject</button>
+    </div>
+
+</body>
+</html>
